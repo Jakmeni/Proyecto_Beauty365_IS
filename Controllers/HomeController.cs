@@ -19,7 +19,12 @@ namespace Proyecto_Beauty365.Controllers
 
             return View();
         }
+        public ActionResult Parametros()
+        {
+            ViewBag.Message = "Your application description page.";
 
+            return View();
+        }
         public ActionResult Citas()
         {
             ViewBag.Message = "Your contact page.";
